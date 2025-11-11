@@ -1,0 +1,26 @@
+[package]
+name = "rustoken" 
+version = "0.1.0"
+authors = ["Ehsan Amiri <ehsan.amiri.prog@example.com>"]
+edition = "2021"
+    
+
+
+
+[dependencies]
+pyo3 = { version = "0.23.5", features = ["extension-module"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+uuid = { version = "1.6", features = ["v4"] }
+jsonwebtoken = { version = "10.2", features = ["rust_crypto"] }
+rand = "0.8"
+base64 = "0.22"
+
+
+
+
+[lib]
+crate-type = ["cdylib"]
+
+[package.metadata.maturin]
+include = ["rustoken"]
