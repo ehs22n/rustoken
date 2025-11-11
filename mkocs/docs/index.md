@@ -1,6 +1,13 @@
-# Rustoken
+---
+title: Rustoken
+description: Rustoken Documentaion
+canonical_url: "https://github.com/ehs22n/rustoken"
+---
+
 
 <img src="./logo.png" width=100>
+
+# Rustoken
 
 **Rustoken** is a `Python library` written in `Rust` that can create and decode JWT tokens.
 This is the first version of the library and it currently supports only the `HS256` algorithm.

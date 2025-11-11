@@ -1,6 +1,6 @@
 [project]
 name = "rustoken"  
-version = "0.1.1"
+version = "0.1.2"
 description = "JWT library implemented in Rust for Python"
 authors = [
     { name = "Ehsan Amiri", email = "ehsan.amiri.prog@example.com" }
@@ -10,10 +10,15 @@ requires-python = ">=3.7"
 dependencies = []
 readme-content-type = "text/markdown"
 
+Repository = "https://github.com/ehs22n/rustoken.git"
+Hompage = "https://ehs22n.github.io/rustoken/"
+
+
 [build-system]
 requires = ["maturin>=1.0"]
 build-backend = "maturin"
 
 [project-urls]
 Repository = "https://github.com/ehs22n/rustoken.git"
-
+Hompage = "https://ehs22n.github.io/rustoken/"
+Documentation = "https://ehs22n.github.io/rustoken/"

@@ -1,0 +1,88 @@
+# ==========================
+#  Project Information
+# ==========================
+site_name: "Rustoken"
+site_description: "Rustoken - A fast and secure JWT library built with Rust and Python."
+site_author: "Ehsan Amiri"
+site_url: "https://ehs22n.github.io/rustoken/"
+repo_url: "https://github.com/ehs22n/rustoken"
+repo_name: "ehs22n/rustoken"
+copyright: "© 2025-2026 Ehsan Amiri"
+
+
+# ==========================
+#  Navigation
+# ==========================
+nav:
+  - Home: index.md
+
+# ==========================
+#  Theme Configuration
+# ==========================
+theme:
+  name: material
+  language: en
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - content.code.copy
+    - toc.integrate
+    - search.highlight
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: "Dark mode"
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: "Light mode"
+  font:
+    text: "Inter"
+    code: "Fira Code"
+  icon:
+    repo: fontawesome/brands/github
+
+# ==========================
+#  Extra Configuration
+# ==========================
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: "https://github.com/ehs22n/rustoken"
+      name: "Rustoken on GitHub"
+      cards: true
+  meta:
+    title: "Rustoken Documentation"
+    description: "Official documentation for Rustoken — A fast and secure JWT library for Rust and Python."
+    image: "https://ehs22n.github.io/rustoken/images/og-image.png"
+    type: "website"
+
+
+# ==========================
+#  Markdown Extensions
+# ==========================
+markdown_extensions:
+  - admonition
+  - footnotes
+  - attr_list
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.details
+  - pymdownx.superfences
+  - toc:
+      permalink: ⚓
+
+# ==========================
+#  Plugins
+# ==========================
+plugins:
+  - search
+  - meta-descriptions
+  - awesome-pages
+  - git-revision-date-localized:
+      type: iso_datetime
